@@ -2,13 +2,13 @@
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-title C4 Model - System Context Diagram (TO-BE)
+title C4 Model - RetailCore_Context (TO-BE)
 
 LAYOUT_LEFT_RIGHT()
 '========================
 ' Пользователи
 '========================
-Person( mcustomer,"Покупатель","Оформляет и оплачивает заказы")
+Person( customer,"Покупатель","Оформляет и оплачивает заказы")
 Person( support,"Сотрудник службы поддержки","Контролирует обработку заказов")
 Person( sales,"Сотрудник продаж","Управляет коммерческими предложениями")
 Person( logistics,"Сотрудник логистики","Контролирует доставку")
